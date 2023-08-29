@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eight Fore</title>
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/sub.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- js -->
+    <script src="../js/jquery-3.6.1.min.js"></script>
+    <script src="../js/script.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="container">
+                <div class="inner spacebetween">
+                    <h1><a href="../index.html"><img src="../images/logo.png" alt="로고"></a></h1>
+                    <p class="modal"><a href="#"><i class="bi bi-justify"></i></a></p>
+                </div><!--inner-->
+            </div><!--container-->
+        </header>
+
+
+        <div id="main">
+            <section id="title">
+                <div class="inner">
+                    <h3>Group</h3>
+
+                    <select class="select_box">
+                        <option selected>단체예약</option>
+                        <option>(단체연수후기)</option>
+                    </select>
+                </div>
+            </section>
+
+            <section id="content">
+                <div class="content_group back_gray">
+                    <div class="content_txt">
+                        <h4>단체견적문의</h4>
+                        <p>30인 이상 기업 및 단체 예약 시 단체견적문의서를 작성해주세요.</p>
+                        <p>*바로 예약하실 분은 <a href="../sub/room_1reserv_1.2.html">개인 예약 페이지</a>로 이동해 주세요.</p>
+                    </div>
+                    <div class="content_call">
+                        <h4>고객문의</h4>
+                        <p>1588-0000</p>
+                        <div><i class="bi bi-telephone-fill"></i></div>
+                    </div>
+                    <div class="content_form">
+                        <div class="inner">
+                            <div class="reserv_form">
+                                <h4>단체예약 견적문의서</h4>
+                                
+                                <div class="reserv_list">
+                                    <form class="rl_1">
+                                        <div><input type="radio" name="chk_info" value="HTML"> 기업</div>
+                                        <div><input type="radio" name="chk_info" value="CSS"> 기타 단체/모임</div>
+                                    </form>
+                                </div>
+
+                                <div class="reserv_list">
+                                    <p>기업(단체)명</p>
+                                    <form class="rl_2">
+                                        <div><input id="input1" type="text" placeholder="기업명(단체명)을 입력해주세요."></div>
+                                    </form>
+                                </div>
+
+                                <div class="reserv_list">
+                                    <p>참여 인원 수</p>
+                                    <form class="rl_2">
+                                        <input  id="input1" type="text" size="50" placeholder="참여 인원수를 입력해주세요.">
+                                    </form>
+                                </div>
+
+                                <div class="reserv_list">
+                                    <p>예약기간 및 숙박일수</p>
+                                    <div class="date">
+                                        <form>
+                                            <div><input id="input0" type="date" value="2023-03-20"><p>-</p><input id="input0" type="date" value="2023-03-20"></div>
+                                        </form>
+                                        <div><p>1박</p></div>
+                                    </div>
+                                </div>
+
+                                <div class="reserv_list">
+                                    <p>연락처</p>
+                                    <form>
+                                        <div><input id="input2" type="tel" size="10" pattern="[0-9]{3}" required> - <input id="input2" type="tel" size="10" pattern="[0-9]{4}" required> - <input id="input2" type="tel" size="10" pattern="[0-9]{4}" required></div>
+                                    </form>
+                                </div>
+
+                                <div class="reserv_list">
+                                    <p>E-MAIL</p>
+                                    <form class="rl_2">
+                                        <div><input id="input1" type="email" pattern=".+@globex\.com"></div>
+                                    </form>
+                                </div>
+                                
+                                <div class="reserv_list">
+                                    <p>옵션선택</p>
+                                    <form class="rl_5">
+                                        <div><input type="checkbox">
+                                        <label for="scales">단체 바베큐</label></div>
+                                        <div><input type="checkbox">
+                                        <label for="scales">조식</label></div>
+                                        <div><input type="checkbox">
+                                        <label for="scales">중식</label></div>
+                                        <div><input type="checkbox">
+                                        <label for="scales">석식</label></div>
+                                    </form>
+                                    <form class="rl_5">
+                                        <div><input type="checkbox">
+                                        <label for="scales">세미나룸</label></div>
+                                        <div><input type="checkbox">
+                                        <label for="scales">소운동장</label></div>
+                                        <div><input type="checkbox">
+                                        <label for="scales">체육대회 소품</label></div>
+                                    </form>
+                                    <form class="rl_5">
+                                        <div><input type="checkbox">
+                                        <label for="scales">노래방</label></div>
+                                        <div><input type="checkbox">
+                                        <label for="scales">탁구장</label></div>
+                                        <div><input type="checkbox">
+                                        <label for="scales">당구장</label></div>
+                                    </form>
+                                </div>
+
+                                <div class="reserv_list">
+                                    <p>기타문의사항</p>
+                                    <form>
+                                        <div><textarea id="question" rows="8"></textarea></div>
+                                    </form>
+                                </div>
+                            </div>
+
+                            <div class="btn_long">
+                                <div class="btn0">
+                                    <a href="#">단체예약 문의하기</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- content_form --> 
+                </div>
+            </section>
+        </div><!-- main -->
+
+        <footer id="footer">
+            <div class="footer_h1">
+                <img src="../images/logo.png" alt="푸터로고">
+                <p>에잇포레 리조트&글램핑</p>
+            </div>
+
+            <div class="inner">
+                <div class="company">
+                    <p>경주시 양남면 산에들레길 301-18</p>
+                    <p>대표이사 이광진</p>
+                    <p>T.(000-123-4567)</p>
+                    <p>사업자등록번호 (123-45-678910)</p>
+                    <p>통신판매신고번호 (_구 ____호)</p>
+                </div>
+
+                <div class="gnb">
+                    <ul>
+                        <li><a href="#">고객센터</a></li>
+                        <li><a href="#">웹사이트이용약관</a></li>
+                        <li><a href="#">이메일무단수집금지</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">영상정보처리기기운영·관리방침</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">호텔정책</a></li>
+                    </ul>
+                </div><!-- gnb -->
+
+            </div><!-- inner -->
+
+            <div class="copy">
+                <p>Copyright © 2023 EIGHTFORE RESORT & GLAMPING. <br> Co. All rights reserved.</p>
+            </div>
+        </footer>
+    </div><!-- wrap -->
+
+    <div class="nav">
+        <div class="nav_header">
+            <div class="inner spacebetween">
+                <p class="back"><a href="#"><i class="bi bi-arrow-left-short"></i></a></p>
+                <h1><a href="../index.html"><img src="../images/logo_white.png" alt="로고"></a></h1>
+                <p class="close"><a href="#"><i class="bi bi-x"></i></a></p>
+            </div>
+        </div><!-- nav_header -->
+
+        <div class="nav_menu">                      
+            <div class="nav_title">
+                <ul class="back_black">
+                    <li><h2>reservation</h2></li>
+                </ul>
+            </div>
+
+            <div class="nav_title">
+                <ul class="back_black">
+                    <li><a href="../sub/room_calendar_monthly.html">예약현황</a></li>
+                    <li><a href="../sub/room_1reserv_1.2.html">예약하기</a></li>
+                    <li><a href="../sub/room_3reserv_1.4.html">예약확인/취소</a></li>
+                </ul>
+            </div>
+
+            <div class="nav_title">
+                <ul>
+                    <li><h3>menu</h3></li>
+                </ul>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li class="active">
+                        <a href="#">객실</a>
+                        <ul class="submenu">
+                            <li><a href="../sub/room.html">전체객실타입</a></li>
+                            <li><a href="../sub/room_detail.html">더블룸</a></li>
+                            <li><a href="../sub/room_twin.html">트윈룸</a></li>
+                            <li><a href="../sub/room_triple.html">트리플룸</a></li>
+                            <li><a href="../sub/room_family.html">패밀리룸</a></li>
+                            <li><a href="../sub/room_forgroup.html">단체룸</a></li>
+                            <li><a href="../sub/room_kids.html">키즈룸</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">단체</a>
+                        <ul class="submenu">
+                            <li><a href="../sub/group_reserv.html">단체견적문의</a></li>
+                            <li><a href="../sub/group_review.html">(단체연수후기)</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">글램핑</a>
+                        <ul class="submenu">
+                            <li><a href="../sub/outdoor_glamping.html">글램핑</a></li>
+                            <li><a href="../sub/outdoor_glamping.html">바베큐장</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">실내시설</a>
+                        <ul class="submenu">
+                            <li><a href="../sub/indoor.html">전체실내시설</a></li>
+                            <li><a href="../sub/indoor_seminar.html">세미나실</a></li>
+                            <li><a href="../sub/others_detail.html">소강당/노래방</a></li>
+                            <li><a href="../sub/indoor_tennis.html">탁구장/당구장</a></li>
+                            <li><a href="../sub/indoor_restaurant.html">식당</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">야외시설</a>
+                        <ul class="submenu">
+                            <li><a href="../sub/outdoor.html">전체야외시설</a></li>
+                            <li><a href="../sub/outdoor_glamping.html">글램핑/바베큐장</a></li>
+                            <li><a href="../sub/outdoor_playground.html">소규모운동장</a></li>
+                            <li><a href="../sub/outdoor_sportsitem.html">체육대회소품</a></li>
+                            <li><a href="../sub/outdoor_octagon.html">루프팔각탑</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">이용안내</a>
+                        <ul class="submenu">
+                            <li><a href="../sub/notice_aboutus.html">소개</a></li>
+                            <li><a href="../sub/notice_way.html">오시는길</a></li>
+                            <li><a href="../sub/notice_gallery.html">배치도&갤러리</a></li>
+                            <li><a href="../sub/notice_attraction.html">주변놀거리</a></li>
+                            <li><a href="../sub/notice_event.html">이벤트</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div><!-- nav_menu -->
+    </div><!--nav-->
+
+</body>
+</html>
