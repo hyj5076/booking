@@ -1,28 +1,52 @@
 // ====================================
+//  main Title Button active
+// ====================================
+
+document.querySelectorAll('.main_part a').forEach(link => {
+    link.addEventListener('click', function(event) {
+        // 링크의 기본 동작을 막기 위함
+        event.preventDefault();
+
+        // 모든 li에서 active 클래스 제거
+        document.querySelectorAll('.main_part li').forEach(li => {
+            li.classList.remove('active');
+        });
+
+        // 클릭된 a의 부모 li에 active 클래스 추가
+        event.target.parentElement.classList.add('active');
+    });
+});
+
+// ====================================
 //  main Title
 // ====================================
 
-const mainTitleContents = {
-    '개인': "글램핑, 바베큐장, 계곡 등 자연친화적인 공간에서 사랑하는 사람들과 행복한 시간을 보내세요. <a href='sub/notice_aboutus.html'>소개 바로가기</a>",
-    '단체': "단체용 텍스트 내용. <a href='sub/notice_aboutus.html'>소개 바로가기</a>",
-    '글램핑': "글램핑용 텍스트 내용. <a href='sub/notice_aboutus.html'>소개 바로가기</a>"
-};
+const mainTitleContents = [
+    "글램핑, 바베큐장, 계곡 등 자연친화적인 공간에서 사랑하는 사람들과 행복한 시간을 보내세요. <a href='sub/notice_aboutus.html'>소개 바로가기</a>",
+    "단체용 텍스트 내용. <a href='sub/notice_aboutus.html'>소개 바로가기</a>",
+    "글램핑용 텍스트 내용. <a href='sub/notice_aboutus.html'>소개 바로가기</a>"
+];
+
+function renderMainTitleByIndex(index) {
+    const p = document.getElementById('textContent');
+    p.innerHTML = mainTitleContents[index];
+}
 
 function changeText(event) {
     event.preventDefault(); 
     const type = event.target.getAttribute('data-type');
-    const p = document.getElementById('textContent');
-
-    p.innerHTML = mainTitleContents[type] || "글램핑, 바베큐장, 계곡 등 자연친화적인 공간에서 사랑하는 사람들과 행복한 시간을 보내세요. <a href='sub/notice_aboutus.html'>소개 바로가기</a>";
-
+    
     switch (type) {
         case '개인':
+            renderMainTitleByIndex(0);
             renderContents(contents01);
             break;
         case '단체':
+            renderMainTitleByIndex(1);
             renderContents(contents02);
             break;
         case '글램핑':
+            renderMainTitleByIndex(2);
             renderContents(contents03);
             break;
         default:
@@ -150,4 +174,5 @@ function renderContents(contentSet) {
 
 document.addEventListener("DOMContentLoaded", function() {
     renderContents(contents01);
+    renderMainTitleByIndex(0);
 });
