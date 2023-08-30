@@ -2,40 +2,26 @@
 //  header 예시, 수정해야함
 // ====================================
 
-// li와 아이콘 생성 해주기
-function createHeader() {
-    const h1 = document.createElement('h1');
-    const icon = document.createElement('i');
-    icon.className = "bi bi-circle-fill"; 
-    li.appendChild(icon);
-    return li;
+const headerContents = {
+    logo: '/images/logo.png',
+    headerLink: '/index.html',
 }
 
-function initializePaginationItems() {
-    const paginationContainer = document.querySelector("#pagination");
-    
-    colors.forEach(() => {
-        const newLi = createListItemWithIcon();
-        paginationContainer.appendChild(newLi);
-    });
+function headerCommon(txt) {
+    const headerId = document.getElementById('header');
+   
+    const headerHtml = `
+    <div class="container">
+        <div class="inner spacebetween">
+            <h1><a href="${txt.headerLink}"><img src="${txt.logo}" alt="로고"></a></h1>
+            <p class="modal"><a href="#"><i class="bi bi-justify"></i></a></p>
+        </div>
+    </div>
+    `;
+
+    headerId.innerHTML = headerHtml;
 }
 
-// 만약 #pagenation에서 li i를 하드코딩해주었다면 이 부분만 필요함
-function updateDotColors() {
-    const paginationItems = document.querySelectorAll("#pagination li");
-
-    paginationItems.forEach((item, index) => {
-        if (index === page) {
-            item.querySelector('i').style.color = colors[index];
-        } else {
-            item.querySelector('i').style.color = "#ddd";
-        }
-    });
-}
-
-// 페이지 로드 시 pagination items 초기화
-document.addEventListener("DOMContentLoaded", () => {
-    initializePaginationItems();
-    updateDotColors();
-    bindPaginationClicks();
+document.addEventListener("DOMContentLoaded", function() {
+    headerCommon(headerContents);
 });
