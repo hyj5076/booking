@@ -8,7 +8,7 @@ function navCommon() {
     const navHtml = `
     <div class="nav_header">
             <div class="inner spacebetween">
-                <p class="back"><a href="#"><i class="bi bi-arrow-left-short"></i></a></p>
+                <p class="back"><a href=""><i class="bi bi-arrow-left-short"></i></a></p>
                 <h1><a href="/index.html"><img src="/images/logo_white.png" alt="로고"></a></h1>
                 <p class="close"><a href="#"><i class="bi bi-x"></i></a></p>
             </div>
@@ -23,7 +23,7 @@ function navCommon() {
 
             <div class="nav_title">
                 <ul class="back_black">
-                    <li><a href="sub/room_calendar_monthly.html">예약현황</a></li>
+                    <li><a href="/sub/room_calendar_monthly.html">예약현황</a></li>
                     <li><a href="/sub/room_1reserv_1.2.html">예약하기</a></li>
                     <li><a href="/sub/room_3reserv_1.4.html">예약확인/취소</a></li>
                 </ul>
