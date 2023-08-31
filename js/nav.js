@@ -14,28 +14,25 @@ function navCommon() {
         </div>
     </div>
     
-    <div class="nav_menu inner">                      
+    <div class="nav_menu max_inner">   
         <div class="nav_title">
-            <ul class="back_black">
-                <li><h2>reservation</h2></li>
-            </ul>
+            <h2>reservation</h2>
+            <div class="nav_login">
+                <a href="/sub/login_1.2.html">로그인</a>
+                <a href="/sub/login_2.2.html">비회원예약</a>
+            </div>
         </div>
-    
+
         <div class="nav_title">
-            <ul class="back_black">
-                <li><a href="/sub/room_calendar_monthly.html">예약현황</a></li>
-                <li><a href="/sub/room_1reserv_1.2.html">예약하기</a></li>
+            <ul>
+                <li class="border-right"><a href="/sub/room_calendar_monthly.html">예약현황</a></li>
+                <li class="border-right"><a href="/sub/room_1reserv_1.2.html">예약하기</a></li>
                 <li><a href="/sub/room_3reserv_1.4.html">예약확인/취소</a></li>
             </ul>
         </div>
     
-        <div class="nav_title">
-            <ul>
-                <li><h3>menu</h3></li>
-            </ul>
-        </div>
-    
         <div class="menu">
+            <h3>menu</h3>
             <ul>
                 <li class="active">
                     <a href="#">객실</a>
