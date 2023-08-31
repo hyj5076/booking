@@ -39,11 +39,11 @@ function navCommon() {
                     <ul class="submenu">
                         <li><a href="/sub/room.html">전체객실타입</a></li>
                         <li><a href="/sub/room_detail.html">더블룸</a></li>
-                        <li><a href="/sub/room_twin.html">트윈룸</a></li>
-                        <li><a href="/sub/room_triple.html">트리플룸</a></li>
-                        <li><a href="/sub/room_family.html">패밀리룸</a></li>
-                        <li><a href="/sub/room_forgroup.html">단체룸</a></li>
-                        <li><a href="/sub/room_kids.html">키즈룸</a></li>
+                        <li><a href="">트윈룸</a></li>
+                        <li><a href="">트리플룸</a></li>
+                        <li><a href="">패밀리룸</a></li>
+                        <li><a href="">단체룸</a></li>
+                        <li><a href="">키즈룸</a></li>
                     </ul>
                 </li>
                 <li>
@@ -56,18 +56,18 @@ function navCommon() {
                 <li>
                     <a href="#">글램핑</a>
                     <ul class="submenu">
-                        <li><a href="/sub/outdoor_glamping.html">글램핑</a></li>
-                        <li><a href="/sub/outdoor_glamping.html">바베큐장</a></li>
+                        <li><a href="">글램핑</a></li>
+                        <li><a href="">바베큐장</a></li>
                     </ul>
                 </li>
                 <li>
                     <a href="#">실내시설</a>
                     <ul class="submenu">
                         <li><a href="/sub/indoor.html">전체실내시설</a></li>
-                        <li><a href="/sub/indoor_seminar.html">세미나실</a></li>
+                        <li><a href="">세미나실</a></li>
                         <li><a href="/sub/others_detail.html">소강당/노래방</a></li>
-                        <li><a href="/sub/indoor_tennis.html">탁구장/당구장</a></li>
-                        <li><a href="/sub/indoor_restaurant.html">식당</a></li>
+                        <li><a href="">탁구장/당구장</a></li>
+                        <li><a href="">식당</a></li>
                     </ul>
                 </li>
                 <li>

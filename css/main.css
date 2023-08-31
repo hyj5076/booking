@@ -74,7 +74,7 @@ i {
 
     @media (max-width:700px) {
         .inner {
-            max-width: calc(100% - 40px);
+            max-width: calc(100% - 30px);
         }
     }
 
@@ -444,7 +444,7 @@ i {
 }
 
 .content_img .more a:hover  {
-    background: #fff;
+    background: rgba(255,255,255,0.8);
     color: #000;
 }
 
@@ -471,6 +471,7 @@ i {
 .footer_h1 img {
     width: auto;
     height: 50px;
+    margin: 0 20px;
 }
 
 
