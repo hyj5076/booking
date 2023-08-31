@@ -7,95 +7,95 @@ function navCommon() {
 
     const navHtml = `
     <div class="nav_header">
-            <div class="inner spacebetween">
-                <p class="back"><a href=""><i class="bi bi-arrow-left-short"></i></a></p>
-                <h1><a href="/index.html"><img src="/images/logo_white.png" alt="로고"></a></h1>
-                <p class="close"><a href="#"><i class="bi bi-x"></i></a></p>
-            </div>
+        <div class="inner spacebetween">
+            <p class="back"><a href=""><i class="bi bi-arrow-left-short"></i></a></p>
+            <h1><a href="/index.html"><img src="/images/logo_white.png" alt="로고"></a></h1>
+            <p class="close"><a href="#"><i class="bi bi-x"></i></a></p>
         </div>
-
-        <div class="nav_menu">                      
-            <div class="nav_title">
-                <ul class="back_black">
-                    <li><h2>reservation</h2></li>
-                </ul>
-            </div>
-
-            <div class="nav_title">
-                <ul class="back_black">
-                    <li><a href="/sub/room_calendar_monthly.html">예약현황</a></li>
-                    <li><a href="/sub/room_1reserv_1.2.html">예약하기</a></li>
-                    <li><a href="/sub/room_3reserv_1.4.html">예약확인/취소</a></li>
-                </ul>
-            </div>
-
-            <div class="nav_title">
-                <ul>
-                    <li><h3>menu</h3></li>
-                </ul>
-            </div>
-
-            <div class="menu">
-                <ul>
-                    <li class="active">
-                        <a href="#">객실</a>
-                        <ul class="submenu">
-                            <li><a href="/sub/room.html">전체객실타입</a></li>
-                            <li><a href="/sub/room_detail.html">더블룸</a></li>
-                            <li><a href="/sub/room_twin.html">트윈룸</a></li>
-                            <li><a href="/sub/room_triple.html">트리플룸</a></li>
-                            <li><a href="/sub/room_family.html">패밀리룸</a></li>
-                            <li><a href="/sub/room_forgroup.html">단체룸</a></li>
-                            <li><a href="/sub/room_kids.html">키즈룸</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">단체</a>
-                        <ul class="submenu">
-                            <li><a href="/sub/group_reserv.html">단체견적문의</a></li>
-                            <li><a href="/sub/group_review.html">(단체연수후기)</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">글램핑</a>
-                        <ul class="submenu">
-                            <li><a href="/sub/outdoor_glamping.html">글램핑</a></li>
-                            <li><a href="/sub/outdoor_glamping.html">바베큐장</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">실내시설</a>
-                        <ul class="submenu">
-                            <li><a href="/sub/indoor.html">전체실내시설</a></li>
-                            <li><a href="/sub/indoor_seminar.html">세미나실</a></li>
-                            <li><a href="/sub/others_detail.html">소강당/노래방</a></li>
-                            <li><a href="/sub/indoor_tennis.html">탁구장/당구장</a></li>
-                            <li><a href="/sub/indoor_restaurant.html">식당</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">야외시설</a>
-                        <ul class="submenu">
-                            <li><a href="/sub/outdoor.html">전체야외시설</a></li>
-                            <li><a href="/sub/outdoor_glamping.html">글램핑/바베큐장</a></li>
-                            <li><a href="/sub/outdoor_playground.html">소규모운동장</a></li>
-                            <li><a href="/sub/outdoor_sportsitem.html">체육대회소품</a></li>
-                            <li><a href="/sub/outdoor_octagon.html">루프팔각탑</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">이용안내</a>
-                        <ul class="submenu">
-                            <li><a href="/sub/notice_aboutus.html">소개</a></li>
-                            <li><a href="/sub/notice_way.html">오시는길</a></li>
-                            <li><a href="/sub/notice_gallery.html">배치도&갤러리</a></li>
-                            <li><a href="/sub/notice_attraction.html">주변놀거리</a></li>
-                            <li><a href="/sub/notice_event.html">이벤트</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+    </div>
+    
+    <div class="nav_menu inner">                      
+        <div class="nav_title">
+            <ul class="back_black">
+                <li><h2>reservation</h2></li>
+            </ul>
         </div>
+    
+        <div class="nav_title">
+            <ul class="back_black">
+                <li><a href="/sub/room_calendar_monthly.html">예약현황</a></li>
+                <li><a href="/sub/room_1reserv_1.2.html">예약하기</a></li>
+                <li><a href="/sub/room_3reserv_1.4.html">예약확인/취소</a></li>
+            </ul>
+        </div>
+    
+        <div class="nav_title">
+            <ul>
+                <li><h3>menu</h3></li>
+            </ul>
+        </div>
+    
+        <div class="menu">
+            <ul>
+                <li class="active">
+                    <a href="#">객실</a>
+                    <ul class="submenu">
+                        <li><a href="/sub/room.html">전체객실타입</a></li>
+                        <li><a href="/sub/room_detail.html">더블룸</a></li>
+                        <li><a href="/sub/room_twin.html">트윈룸</a></li>
+                        <li><a href="/sub/room_triple.html">트리플룸</a></li>
+                        <li><a href="/sub/room_family.html">패밀리룸</a></li>
+                        <li><a href="/sub/room_forgroup.html">단체룸</a></li>
+                        <li><a href="/sub/room_kids.html">키즈룸</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">단체</a>
+                    <ul class="submenu">
+                        <li><a href="/sub/group_reserv.html">단체견적문의</a></li>
+                        <li><a href="/sub/group_review.html">(단체연수후기)</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">글램핑</a>
+                    <ul class="submenu">
+                        <li><a href="/sub/outdoor_glamping.html">글램핑</a></li>
+                        <li><a href="/sub/outdoor_glamping.html">바베큐장</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">실내시설</a>
+                    <ul class="submenu">
+                        <li><a href="/sub/indoor.html">전체실내시설</a></li>
+                        <li><a href="/sub/indoor_seminar.html">세미나실</a></li>
+                        <li><a href="/sub/others_detail.html">소강당/노래방</a></li>
+                        <li><a href="/sub/indoor_tennis.html">탁구장/당구장</a></li>
+                        <li><a href="/sub/indoor_restaurant.html">식당</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">야외시설</a>
+                    <ul class="submenu">
+                        <li><a href="/sub/outdoor.html">전체야외시설</a></li>
+                        <li><a href="/sub/outdoor_glamping.html">글램핑/바베큐장</a></li>
+                        <li><a href="/sub/outdoor_playground.html">소규모운동장</a></li>
+                        <li><a href="/sub/outdoor_sportsitem.html">체육대회소품</a></li>
+                        <li><a href="/sub/outdoor_octagon.html">루프팔각탑</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">이용안내</a>
+                    <ul class="submenu">
+                        <li><a href="/sub/notice_aboutus.html">소개</a></li>
+                        <li><a href="/sub/notice_way.html">오시는길</a></li>
+                        <li><a href="/sub/notice_gallery.html">배치도&갤러리</a></li>
+                        <li><a href="/sub/notice_attraction.html">주변놀거리</a></li>
+                        <li><a href="/sub/notice_event.html">이벤트</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
     `;
 
     navId.innerHTML = navHtml;

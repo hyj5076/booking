@@ -6,7 +6,7 @@ function footerCommon() {
     const footerId = document.getElementById('footer');
    
     const footerHtml = `
-        <div class="footer_h1">
+        <div class="footer_h1 inner">
             <img src="/images/logo.png" alt="푸터로고">
             <p>에잇포레 리조트&글램핑</p>
         </div>
