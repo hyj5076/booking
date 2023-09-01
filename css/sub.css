@@ -1627,6 +1627,10 @@ table p {
     margin-top: 10px;
 }
 
+.content_list .bi-arrow-right-short {
+    font-size: 3rem;
+}
+
 
 /* ------------------------------------------------- 
     [공통]컨텐츠박스 : 어메니티, 안내사항, 오시는길
@@ -1839,9 +1843,7 @@ table p {
 
 /* [공통]에잇포레 소개페이지 콘텐츠 리스트 */
 
-.aboutus_list {
-    padding-left: 50px;
-}
+
 
     /* 상단 */
 
@@ -1933,6 +1935,10 @@ table p {
 
 .aboutus_list_right {
     padding-right: 50px;
+}
+
+.aboutus_list {
+    padding-left: 50px;
 }
 
 .top_right h3 {
