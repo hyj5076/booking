@@ -124,7 +124,7 @@ const contents03 = [
         image: "/images/valley.jpg",
         alt: "계곡",
         link: "sub/notice_attraction.html",
-        linkText: "00계곡 자세히보기"
+        linkText: "상계폭포 자세히보기"
     },
     {
         title: "Glamping",
